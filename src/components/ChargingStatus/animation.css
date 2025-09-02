@@ -1,0 +1,16 @@
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 30px 10px #82d1e9, inset 0 0 10px #05c8f4;
+  }
+  50% {
+    box-shadow: 0 0 60px 20px #82d1e9, inset 0 0 20px #05c8f4;
+  }
+  100% {
+    box-shadow: 0 0 30px 10px #82d1e9, inset 0 0 10px #05c8f4;
+  }
+}
+
+.ring-animation {
+  animation: pulseGlow 2s ease-in-out infinite;
+  box-shadow: 0 0 30px 10px #82d1e9, inset 0 0 10px #05c8f4;
+}
